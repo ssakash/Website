@@ -1,9 +1,194 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Website Name</title>
-</head>
-<body>
-<h1> Hello User! </h1>
+<title>ssakash</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://rubenwardy.com/lichess_widgets/lichess_widgets.css" />
+<script src="http://rubenwardy.com/lichess_widgets/lichess_widgets.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidenav - hidden on small screens) -->
+<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+  <!-- Avatar image in top left corner -->
+  <img src="http://orig04.deviantart.net/ee03/f/2011/251/b/d/kaitou_kid_ace_by_thief1412-d499alc.png" style="width:100%">
+  <a class="w3-padding-large w3-black" href="#">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#about">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#photos">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#contact">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <ul class="w3-navbar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <li class="w3-left" style="width:25% !important"><a href="#">HOME</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#about">ABOUT</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#photos">PHOTOS</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#contact">CONTACT</a></li>
+  </ul>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo">Hello! <span class="w3-hide-small">I'm</span> Akash.</h1>
+    <p>FIDE Chess player and Programmer</p>
+    <img src="http://i.imgur.com/MXyZQvP.jpg" alt="boy" class="w3-image" width="400" height="150">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">S.S.Akash</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Akash <STRONG>(AKA ssakash)</STRONG> is an undergraduate engineering student in the field of computer science, he’s interested in computer programming (generally C++ and Python), reverse engineering and also plays chess as a hobby.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">C/C++</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:90%"></div>
+    </div>
+    <p class="w3-wide">Python</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:85%"></div>
+    </div>
+     <p class="w3-wide">HTML/CSS/JavaScript</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:85%"></div>
+    </div>
+    <p class="w3-wide">Chess</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:80%"></div>
+    </div>
+    <p class="w3-wide">Technical Writing</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:80%"></div>
+    </div>
+    <br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">4+</span><br>
+        Followers
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">20+</span><br>
+        Issues reported
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">120+</span><br>
+        Pull Requests
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">216+</span><br>
+        Contributions
+      </div>
+    </div>
+
+    <button onclick="location.href = 'https://github.com/ssakash';" class="w3-btn w3-light-grey w3-padding-large w3-section w3-hover-grey">Visit Github Profile
+    </button>
+   
+    <h3 class="w3-padding-16 w3-text-light-grey">My Chess Accomplishments</h3>
+   <script>lichess_widgets.profile("light", "ssakash");</script> <br>
+   <a href="http://www.freeimagehosting.net/commercial-photography/"><img src="http://i.imgur.com/gGr4uQR.png" alt="classical rating"></a>
+    <br> <br> <br>
+
+	<a href="http://www.freeimagehosting.net/commercial-photography/"><img src="http://i.imgur.com/QLWc0yQ.png" alt="header of trophies"></a>
+    <a href="http://www.freeimagehosting.net/commercial-photography/"><img src="http://i.imgur.com/TzJsUin.png" alt="Tournament Trophies"></a>
+    <br>
+    <br>
+     <h2 class="w3-text-light-grey">My Favorite match (Played as Black against a 2000+ rated player when I was 16 year old)</h2>
+     <iframe src="https://lichess.org/embed/1W5Jw1Kx#108?theme=auto&bg=auto"
+width=600 height=397 frameborder=0></iframe>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/521648_120248268132151_1013018134_n.jpg?oh=deaef7fd225fcfc0005065d8d418b485&oe=58FE4E62" style="width:100%">
+        <img src="https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/15492583_695852770571695_7635964935722416869_n.jpg?oh=8db7dcbb21eefa646667be92a151ccd8&oe=593AEAF3" style="width:100%">
+        <img src="https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/15589762_695833363906969_8478541004443590866_n.jpg?oh=3285bac3d322492ec126c5fe288562e5&oe=5934A19A" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+      <img src="https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/292882_120249141465397_1886863966_n.jpg?oh=1064daa726fc859e3bb6d6c8bb79093d&oe=592D69C2" style="width:100%">
+        <img src="https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/644581_118551598301818_1418350328_n.jpg?oh=92893298a6fe1ebe92bf8fe25ad2512f&oe=59316CD2" style="width:100%">
+        <img src="https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/14322405_645803612243278_3745351279710226035_n.jpg?oh=60c9b48866bdd6df085b9537183203b0&oe=59456469" style="width:100%">
+        <img src="https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/15492533_695838857239753_3472030795604708318_n.jpg?oh=c6ace81141d20d09e61d1884e64ae591&oe=593FD8AC" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tamilnadu, India</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 8220108455</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: ssakash2012@gmail.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-btn w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+    <i class="fa fa-instagram w3-hover-text-purple"></i>
+    <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+    <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+    <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
 </body>
 </html>
