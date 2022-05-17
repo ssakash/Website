@@ -1,0 +1,53 @@
+.container-md{
+	width: 330px;
+	overflow: hidden;
+	margin: 50px auto 0 auto;
+}
+
+.container-md span{
+	display: block;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+.container-md .box{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+	transition: all .25s ease-in-out;
+	font-size: 85px;
+	text-align: center;
+	line-height: 100px; 
+	cursor: pointer;
+  }
+
+.container-md .box:hover{
+	background: rgb(190, 252, 20);
+	color: rgb(231, 218, 218);
+}
+
+.btn{
+	width: 200px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 15px;
+	display: block;
+	margin: 40px auto;
+	margin-left: auto;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 13px 0px rgba(74, 17, 107, 0.75);
+	-moz-box-shadow: 0px 0px 13px 0px rgba(74, 17, 107, 0.75);
+	box-shadow: 0px 0px 13px 0px rgba(74, 17, 107, 0.75);
+}
+
+.win{
+	background: #4eff48; 
+	color: rgb(7, 8, 7);
+}
+
+body{
+	background: rgb(219, 252, 252);
+}
